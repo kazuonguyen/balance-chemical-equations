@@ -57,6 +57,13 @@
 </head>
 
 <body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$('*').bind('cut copy paste contextmenu', function (e) {
+			e.preventDefault();
+		})});
+		</script>
+		
 	<h1>Công cụ cân bằng PTHH</h1>
 	<div style="display:none">
 <noscript>
