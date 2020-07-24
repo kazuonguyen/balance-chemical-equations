@@ -1,15 +1,14 @@
 
-
 body{
     background-image: url("./image/nenweb.png");
-    background-repeat: no-repeat;
+
     background-size: 100%;
 }
 .btn{
    
     margin-top: 5%;
-    margin-left: 30%;
-   
+    
+     margin-left: 30%;
     cursor: pointer;
     color: #44d7b6;
     font-size: 14px;
@@ -17,11 +16,14 @@ body{
     text-align: center;
     border-radius: 6px;
     padding: 11px 15px;
-    min-width: 220px;
+    max-width: 220px;
     background-color: #0f1e2f;
     white-space: nowrap;
     cursor: pointer;
     border: none;
+  
+    align-items: center;
+    justify-content: center;
 }
 .dl{
     margin-top: 10%;
@@ -37,7 +39,7 @@ body{
     margin-top: 5px;
 }
 #ndl{
-    margin-left: 35%;
+    margin-left: 38%;
 }
 
 
@@ -64,7 +66,7 @@ h1{
     margin-top: 5%;
 }
 .cb{
-  
+    text-align: center;
     margin-left: 33%;
 }
 
@@ -82,18 +84,6 @@ body{
     outline: 0;
 }
 .btn::-moz-focus-inner {border:0;}
-html,
-body {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+#btn2{
+    margin-left: 25%;
 }
-body{
-    -webkit-user-select:none;
-    -khtml-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none }
